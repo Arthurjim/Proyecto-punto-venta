@@ -1,5 +1,11 @@
 import React from 'react';
-
-const Ventas = () => <h1>Ventas</h1>
+import Header from '../components/Header.js'
+class Ventas extends React.Component{
+  render(){
+    return (
+      <Header/>
+    )
+  }
+}
 
 export default Ventas;
