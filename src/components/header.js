@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/static/home.css';
+
 function Header(){
   return (
     <div className="container">
